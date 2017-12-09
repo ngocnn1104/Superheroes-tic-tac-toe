@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Marvel');
+
+body {
+	text-align: center;
+	font-family: 'Marvel', sans-serif;
+	background-image: url("https://www.wallpapersbrowse.com/images/g7/g7gwxv6.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+button {
+	font-size: 15px;
+	font-family: 'Marvel', sans-serif;
+	margin-top: 20px;
+}
+
+td {
+  width: 100px;
+  height: 100px;
+  margin: 0;
+}
+
+.r1c1, .r2c1 {
+  border-right: thin dotted black;
+  border-bottom: thin dotted black;
+}
+
+.r1c2, .r2c2 {
+  border-bottom: thin dotted black;
+}
+
+.r1c3, .r2c3 {
+  border-left: thin dotted black;
+  border-bottom: thin dotted black;
+}
+
+.r3c1 {
+  border-right: thin dotted black;
+}
+
+.r3c3 {
+  border-left: thin dotted black;
+}
+
+.App {
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+	font-size: 40px;
+}
+
+h2 {
+  margin-top: 70px;
+}
+
+.numPlayers {
+  margin-top: 60px;
+}
+
+#box {
+  width: 310px;
+  height: 310px;
+  border: thick solid black;
+  margin: 40px auto;
+}
+
+.heading {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
